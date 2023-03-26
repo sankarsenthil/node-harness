@@ -15,7 +15,7 @@ spec:
         app: helloworld
     spec:
       containers:
-      - name: sankarsenthil002/helloworld
-              image: nginx:1.16
+      - name: helloworld
+              image: helloworld:latest
         ports:
         - containerPort: 8080
